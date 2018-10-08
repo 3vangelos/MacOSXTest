@@ -27,6 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.layers = [self createLayersFromLines:self.lines];
+    [self layoutSubViews];
 }
 
 - (void)viewWillAppear {
